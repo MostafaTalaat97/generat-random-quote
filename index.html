@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+
+    <div class="app w-100 min-vh-100 flex-column d-flex justify-content-center align-items-center">
+        
+        <div class="item text-center mb-5">
+            <h1 class="display-1 fw-bolder text-info">Quote of the Day</h1>
+            <p class="fs-3 fw-semibold">Press the button below to recieve a random quote!</p>
+            <button class="btn btn-outline-dark px-5 py-3" onclick="getQuote()">generate</button>
+
+            
+        </div><!-- ./item -->
+        <div class="container quotes-content text-center bg-info p-5 ">
+            <p id="quote"></p>
+            <p id="auther"></p>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
